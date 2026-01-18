@@ -11,10 +11,10 @@ if ($host === 'localhost' || strpos($host, '127.0.0.1') !== false) {
     $database   = 'hotelmontana';
 } else {
     // Konfigurasi untuk Hosting
-    $server     = 'localhost';
-    $username   = 'zfkwrvad_hotelhebat';
-    $password   = 'VYCMxmyyNtYwtqNG9nmj';
-    $database   = 'zfkwrvad_hotelhebat';
+    $server     = '';
+    $username   = '';
+    $password   = '';
+    $database   = '';
 }
 
 // Membuat koneksi ke database
